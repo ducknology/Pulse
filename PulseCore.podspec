@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "Pulse"
+  spec.name         = "PulseCore"
   spec.version      = "1.1.0"
   spec.summary      = "Network Logger for Apple Platforms"
 
@@ -91,7 +91,7 @@ Pulse is a powerful logging system for Apple Platforms. Native. Built with Swift
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Sources/Pulse/**/*.{swift}"
+  spec.source_files  = "Sources/PulseCore/**/*.{swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -133,6 +133,6 @@ Pulse is a powerful logging system for Apple Platforms. Native. Built with Swift
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "PulseCore", "1.1.0"
-  spec.dependency "PulseUI", "1.1.0"
+  spec.dependency "Logging", "~> 1.4.0"
+
 end
