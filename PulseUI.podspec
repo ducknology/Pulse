@@ -133,6 +133,6 @@ Pulse is a powerful logging system for Apple Platforms. Native. Built with Swift
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "Logging", "~> 1.4.0"
+  spec.dependency "PulseCore", "1.1.0"
 
 end
